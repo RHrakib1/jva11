@@ -3,7 +3,7 @@ function chabanao() {
         console.log("cha banano suru hoilo");
 
         setTimeout(function () {
-            let chahoise = true;
+            let chahoise = false;
 
             if (chahoise) {
                 resolved("successfully done",);
@@ -23,3 +23,6 @@ chabanao()
     .catch(function (error) {
         console.log("hbe na", error);
     })
+
+
+    console.log("hi baby");
